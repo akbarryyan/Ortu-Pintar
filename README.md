@@ -36,7 +36,7 @@ OrtuPintar is a responsive web platform that helps parents actively participate 
 
 - Age-appropriate activity recommendations
 - Activities organized by developmental categories:
-     - Motor Skills, Cognitive, Language, Social, Creative, Physical
+  - Motor Skills, Cognitive, Language, Social, Creative, Physical
 - Daily activity reminders
 - Completion tracking and progress monitoring
 
@@ -81,53 +81,53 @@ OrtuPintar is a responsive web platform that helps parents actively participate 
 
 1. **Clone the Repository**
 
-      ```bash
-      git clone https://github.com/zaki-ramadhan/OrtuPintar-app.git
-      cd ortupintar-app
-      ```
+   ```bash
+   git clone https://github.com/akbarryyan/Ortu-Pintar.git
+   cd ortu-pintar
+   ```
 
 2. **Install Dependencies**
 
-      ```bash
-      # Backend
-      cd backend
-      npm install
+   ```bash
+   # Backend
+   cd backend
+   npm install
 
-      # Frontend
-      cd ../frontend
-      npm install
-      ```
+   # Frontend
+   cd ../frontend
+   npm install
+   ```
 
 3. **Database Setup**
 
-      ```bash
-      # Create database
-      mysql -u root -p
-      CREATE DATABASE ortupintar_db;
-      ```
+   ```bash
+   # Create database
+   mysql -u root -p
+   CREATE DATABASE ortupintar_db;
+   ```
 
 4. **Environment Configuration**
 
-      Create `.env` files with your configuration:
+   Create `.env` files with your configuration:
 
-      **Backend (.env)**
+   **Backend (.env)**
 
-      ```env
-      DB_HOST=localhost
-      DB_USER=your_username
-      DB_PASSWORD=your_password
-      DB_NAME=ortupintar_db
-      JWT_SECRET=your_jwt_secret
-      PORT=[BACKEND_PORT]
-      ```
+   ```env
+   DB_HOST=localhost
+   DB_USER=your_username
+   DB_PASSWORD=your_password
+   DB_NAME=ortupintar_db
+   JWT_SECRET=your_jwt_secret
+   PORT=[BACKEND_PORT]
+   ```
 
-      **Frontend (.env)**
+   **Frontend (.env)**
 
-      ```env
-      VITE_API_URL=http://localhost:[BACKEND_PORT]/api
-      ```
+   ```env
+   VITE_API_URL=http://localhost:[BACKEND_PORT]/api
+   ```
 
-      > **Security Note:** Configure your own port numbers for backend and API connections. Avoid using default ports in production environments.
+   > **Security Note:** Configure your own port numbers for backend and API connections. Avoid using default ports in production environments.
 
 ## 🎮 Usage
 
@@ -135,16 +135,16 @@ OrtuPintar is a responsive web platform that helps parents actively participate 
 
 1. **Start Backend**
 
-      ```bash
-      cd backend
-      npm run dev
-      ```
+   ```bash
+   cd backend
+   npm start
+   ```
 
 2. **Start Frontend**
-      ```bash
-      cd frontend
-      npm run dev
-      ```
+   ```bash
+   cd frontend
+   npm run dev
+   ```
 
 Access the application at `http://localhost:5173`
 
@@ -158,8 +158,7 @@ Access the application at `http://localhost:5173`
 
 **Backend:**
 
-- `npm run dev` - Start development server
-- `npm start` - Start production server
+- `npm start` - Start development server
 
 ## 🤝 Contributing
 
@@ -167,14 +166,14 @@ We welcome contributions! Here's how you can help:
 
 1. **Fork the repository**
 2. **Create a feature branch**
-      ```bash
-      git checkout -b feature/new-feature
-      ```
+   ```bash
+   git checkout -b feature/new-feature
+   ```
 3. **Make your changes**
 4. **Commit your changes**
-      ```bash
-      git commit -m "Add new feature"
-      ```
+   ```bash
+   git commit -m "Add new feature"
+   ```
 5. **Push and create a Pull Request**
 
 ### Guidelines
@@ -234,9 +233,9 @@ If you encounter issues:
 1. Check existing documentation
 2. Search for similar issues
 3. Create a new issue with:
-      - Clear description
-      - Steps to reproduce
-      - Expected vs actual behavior
+   - Clear description
+   - Steps to reproduce
+   - Expected vs actual behavior
 
 ---
 
