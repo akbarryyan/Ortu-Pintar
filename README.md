@@ -145,8 +145,11 @@ OrtuPintar is a responsive web platform that helps parents actively participate 
    cd frontend
    npm run dev
    ```
-
 Access the application at `http://localhost:5173`
+Access admin dashboard at `http://localhost:5173/admin/login`
+Demo Credentials Admin: 
+- email: admin@ortupintar.com 
+- password: password123
 
 ### Available Scripts
 
